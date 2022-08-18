@@ -14,7 +14,8 @@ class Missions extends React.Component {
             name={ name }
             year={ year }
             country={ country }
-            destination={ destination } />
+            destination={ destination }
+          />
         ))}
       </div>
     );
