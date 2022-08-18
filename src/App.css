@@ -1,3 +1,55 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./images/background.png');
+}
+
+header {
+  color: white;
   text-align: center;
+}
+
+.sistema-solar {
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+.planetao {
+  color: white;
+  display: inline-block;
+  max-width: 150px;
+  text-align: center;
+}
+
+.planetao img {
+  width: 100%;
+}
+
+.missoes-qd {
+  margin: auto;
+  text-align: center;
+}
+
+.missao {
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  height: 120px;
+  margin: auto;
+  width: 250px;
+}
+
+.tabela {
+  margin: auto;
+}
+
+.tabela, tr {
+  height: 100%;
+  width: 100%;
 }
